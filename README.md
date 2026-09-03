@@ -26,11 +26,15 @@ Dateien auf den Webspace kopieren, fertig.
 | `index.html` | die gesamte Seite |
 | `styles.css` | Design-Tokens und Layout |
 | `script.js` | Navigation, Öffnungsstatus, Scroll-Reveal, Formularprüfung |
-| `assets/images/` | Bildplatzhalter als SVG (zusammen ca. 14 KB) |
+| `assets/images/` | Foto-Platzhalter als WebP, zugeschnitten und warm angeglichen |
 | `assets/fonts/` | selbst gehostete Schrift Nunito (SIL OFL, siehe `OFL.txt`) |
 
-Gesamtgewicht der Startseite: rund 100 KB bei 6 Requests, keine externen Aufrufe,
-keine Cookies, kein Tracking.
+Erster Seitenaufbau: rund 210 KB bei 6 Requests. Die übrigen Fotos werden erst beim
+Scrollen nachgeladen (zusammen ca. 530 KB für die komplette Seite). Keine externen
+Aufrufe, keine Cookies, kein Tracking.
+
+Die Fotos liegen nur als WebP vor. Das versteht jeder Browser ab 2020 (Safari 14,
+iOS 14). Wer noch ältere Geräte bedienen muss, ergänzt ein `<picture>` mit JPEG.
 
 ## Selbst ändern
 
@@ -56,7 +60,9 @@ mit `<strong>Urlaub:</strong>`.
 ## Vor einem echten Livegang
 
 - Impressum und Datenschutz mit echten Angaben füllen und rechtlich prüfen lassen
-- Echte Fotos statt der SVG-Platzhalter einsetzen (Bildnachweis ergänzen)
+- Eigene Fotos von Salon und Team statt der Stockfotos einsetzen. Für die Team-Sektion
+  ist das keine Kür: Stockfotos fremder Personen als eigenes Team auszugeben, deckt die
+  Pexels-Lizenz nicht ab. Von eigenen Mitarbeitenden vorher schriftlich einwilligen lassen.
 - Fresha-Widget einbinden; falls es Cookies setzt, erst nach Einwilligung laden
 - Karte, falls gewünscht, ebenfalls erst nach Einwilligung nachladen
 
