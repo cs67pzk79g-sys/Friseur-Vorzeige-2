@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img">
+  <defs>
+    <linearGradient id="g-7" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#f7ece0"/>
+      <stop offset="1" stop-color="#efe0cf"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#g-7)"/>
+<path d="M0 468h600v132H0z" fill="#e6d2bd" opacity=".55"/>
+  <!-- Sessel links -->
+  <path d="M78 226h116a26 26 0 0 1 26 26v96H52v-96a26 26 0 0 1 26-26Z" fill="#c0623c"/>
+  <rect x="40" y="332" width="192" height="56" rx="24" fill="#dd9370"/>
+  <path d="M70 388v72M202 388v72" stroke="#42342b" stroke-width="16" stroke-linecap="round"/>
+  <!-- Sessel rechts -->
+  <path d="M406 226h116a26 26 0 0 1 26 26v96H380v-96a26 26 0 0 1 26-26Z" fill="#6d5140" opacity=".8"/>
+  <rect x="368" y="332" width="192" height="56" rx="24" fill="#6d5140" opacity=".6"/>
+  <path d="M398 388v72M530 388v72" stroke="#42342b" stroke-width="16" stroke-linecap="round"/>
+  <!-- Tischchen mit Tasse -->
+  <rect x="248" y="352" width="104" height="16" rx="8" fill="#6d5140"/>
+  <path d="M268 368v92M332 368v92" stroke="#6d5140" stroke-width="12" stroke-linecap="round"/>
+  <path d="M276 310h44v26a22 22 0 0 1-44 0Z" fill="#fffaf4"/>
+  <path d="M320 316h12a12 12 0 0 1 0 24h-12" stroke="#fffaf4" stroke-width="8" fill="none"/>
+  <path d="M290 286c0-10 8-12 8-22M308 286c0-10 8-12 8-22" stroke="#dd9370" stroke-width="7" fill="none" stroke-linecap="round"/>
+
+</svg>
